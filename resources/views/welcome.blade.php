@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Laravel 5</div><?php \Debugbar::info("Xivato1!"); ?>
             </div>
         </div>
     </body>

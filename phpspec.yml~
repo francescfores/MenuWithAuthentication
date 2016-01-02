@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: MenuWithAuthentication
+        psr4_prefix: App
+        src_path: app
