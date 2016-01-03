@@ -139,7 +139,7 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Acacha\AdminLTETemplateLaravel\app\Providers\AdminLTETemplateServiceProvider::class,
-
+        Zizaco\Entrust\EntrustServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -199,7 +199,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
-
+        'Entrust'   => 'Zizaco\Entrust\EntrustFacade',
 
 
     ],
